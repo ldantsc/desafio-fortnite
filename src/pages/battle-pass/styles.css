@@ -1,0 +1,31 @@
+#battle-pass {
+    margin: 2rem 0;
+    padding: 3rem 0;
+    overflow: hidden;
+}
+
+.battle-pass-container {
+    height: 68vh;   
+    transform: skew(-10deg);   
+}
+
+.battle-pass-container > * {
+    transform: skew(10deg);     
+}
+
+.battle-pass-container-img {
+    align-self: end;
+    z-index: 10;
+} 
+
+.battle-pass-container-img img:first-child {
+    right: 30em;
+    position: absolute;
+    width: auto;
+    height: 41.7em;
+}
+
+.battle-pass-container-img img:last-child {
+    width: auto;
+    height: 60em;
+}

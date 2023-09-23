@@ -1,0 +1,168 @@
+/*GLOBAL CUSTOM CLASS AND KEYFRAMES*/
+
+.display-block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.margin-bottom {
+    margin-bottom: 2.4rem;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.container {
+    margin: 5rem 4rem;
+    padding: 0 6rem;
+    overflow: visible;
+}
+
+.h-100 {
+    height: 100vh;
+}
+
+.bg-blue-radial {
+    background: radial-gradient(66.09% 66.09% at 50% 47.49%, #46CAE9 0%, #0866B0 100%);
+}
+
+
+/* ANIMATIONS */
+
+@keyframes background {
+
+    0%,
+    100% {
+        background-image: url(/bg-img1-min.png)
+    }
+
+    20% {
+        background-image: url(/bg-img2-min.png)
+    }
+
+    40% {
+        background-image: url(/bg-img3-min.png)
+    }
+
+    60% {
+        background-image: url(/bg-img4-min.png)
+    }
+
+    80% {
+        background-image: url(/bg-img5-min.png)
+    }
+}
+
+
+@keyframes video {
+
+    0%,
+    100% {
+        background-image: url(/video-1-min.png)
+    }
+
+    20% {
+        background-image: url(/video-2-min.png)
+    }
+
+    40% {
+        background-image: url(/video-3-min.png)
+    }
+
+    60% {
+        background-image: url(/video-4-min.png)
+    }
+
+    80% {
+        background-image: url(/video-5-min.png)
+    }
+}
+
+@keyframes item-card-h2 {
+    from {
+        transform: translateX(-200px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes item-card-p {
+    from {
+        transform: translateX(250px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes btn {
+
+    from {
+        transform: translate(-50%, -50%) skew(0deg);
+    }
+
+    to {
+        width: 85%;
+        height: 80%;
+        transform: translate(-50%, -50%) skew(-10deg);
+    }
+}
+
+@keyframes progress {
+
+    0%,
+    100% {
+        width: 20%;
+    }
+
+    20% {
+        width: 40%;
+    }
+
+    40% {
+        width: 60%;
+    }
+
+    60% {
+        width: 80%;
+    }
+
+    80% {
+        width: 100%;
+    }
+}

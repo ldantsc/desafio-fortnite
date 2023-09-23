@@ -1,0 +1,81 @@
+/*RESET CSS, FONTS, COLOR PALLETE*/
+
+@import url("https://use.typekit.net/jib6wnl.css");
+
+@font-face {
+  font-family: 'Burbank Big Condensed';
+  src: url('./fonts/burbank-big-condensed-bold.otf');
+}
+
+
+:root {
+  --primary-colors-blue-60: #0866B0;
+  --primary-colors-cyan-400: #46CAE9;
+  --primary-colors-yellow-200: #FEFF04;
+  --primary-colors-yellow-400: #F5E401;
+  --gray-colors-50: #F9FAFB;
+  --gray-colors-100: #F3F4F6;
+  --gray-colors-200: #E5E7EB;
+  --gray-colors-300: #D1D5DB;
+  --gray-colors-400: #9CA3AF;
+  --gray-colors-500: #6B7280;
+  --gray-colors-600: #4B5563;
+  --gray-colors-700: #374151;
+  --gray-colors-800: #1F2937;
+  --gray-colors-900: #090D15;
+  --gray-colors-950: #030712;
+}
+
+html {
+  font-size: 62.5%;
+  text-rendering: geometricPrecision;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "source-sans-pro", source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+.btn-custom,
+.burbank-font {
+  font-family: 'Burbank Big Condensed', sans-serif;
+  color: var(--gray-colors-50);
+  cursor: default;
+}
+
+p {
+  font-size: 2em;
+  color: var(--gray-colors-100);
+}
+
+p,
+h1,
+h2,
+h3 {
+  cursor: default;
+}
+
+a {
+  font-size: 1.7rem;
+  color: var(--gray-colors-50);
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+
+code {
+  font-family: 'Source Sans Pro', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+

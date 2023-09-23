@@ -1,0 +1,31 @@
+.nav-header li {
+    margin: 4px;
+    padding: 0px 10px;
+}
+
+.nav-header li {
+    cursor: pointer;
+}
+
+
+.nav-header li a {
+    font-size: 14px;
+    position: relative;
+    text-shadow: 0 0 2px rgb(0, 0, 0, 0.7);
+}
+
+/* borda animation */
+.nav-header li a::after { /*adicionar um elemento depois do elemento a*/
+   content: " "; /*adicionar um elemento depois do elemento a*/
+   width: 0%; /*100% do tamanho do a*/
+   height: 3px; /*altura da linha*/
+   background-color: #FFF; /*cor da linha*/
+   position: absolute;
+   bottom: 0; /*deixar linha em baixo do a*/
+   left: 0;
+   transition: 0.3s ease-in;
+}
+
+.nav-header li a:hover::after{
+    width: 100%;
+}

@@ -1,0 +1,102 @@
+#v-buck-card {
+    width: 30em;
+    height: 46.8em;
+    background: linear-gradient(180deg, #0866B0 0%, #46CAE9 100%);
+    position: relative;
+    overflow: hidden;
+    box-shadow: inset 0 0 0 4px var(--gray-colors-200);
+}
+
+#v-buck-card:hover {
+    box-shadow: inset 0 0 0 5px var(--primary-colors-yellow-200);
+    transition: 0.8s;
+}
+
+#v-buck-card::after {
+    content: "";
+    height: 15%;
+    width: 0;
+    position: absolute;
+    transform: skew(-20deg);
+    background-color: var(--gray-colors-100);
+    bottom: 0;
+    left: -5%;
+    transition: 0.3s;
+}
+
+.container-v-buck-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container-v-buck-card::before {
+    content: "";
+    width: 0;
+    height: 13%;
+    bottom: -1px;
+    right: -15px;
+    transform: skew(-25deg);
+    background-color: var(--gray-colors-100);
+    position: absolute;
+    transition: 0.3s;
+}
+
+.container-v-buck-card:hover::before {
+    width: 100%;
+}
+
+#v-buck-card:hover::after{
+    width: 52%;
+}
+
+.container-v-buck-card:hover::before, #v-buck-card:hover::after {
+    background: var(--primary-colors-yellow-200);
+}
+
+.v-buck-card-img {
+    width: 200px;
+    height: 124px;
+    margin-top: 50px;
+}
+
+.container-v-buck-card-description {
+    text-align: center;
+    padding: 12px;
+}
+
+.container-v-buck-card-description > h2 {
+    font-size: 4.8em;
+    letter-spacing: 3px;
+    color: var(--gray-colors-800);
+}
+
+.container-v-buck-card-description > h3 {
+    font-size: 3em;
+    letter-spacing: 3px;
+}
+
+.container-v-buck-card-price {
+    width: 100%;
+    height: 15%;
+    z-index: 20;
+    text-align: center;
+    position: relative;
+}
+
+.price {
+    font-size: 3rem;
+    color: var(--gray-colors-700);
+    left: 0;
+    right: -200%;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.container-v-buck-card:hover .price {
+    display: block;
+    right: 0;
+    transition: 0.7s;
+}
