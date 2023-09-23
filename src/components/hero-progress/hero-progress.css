@@ -1,6 +1,0 @@
-.hero-progress {
-    height: 1vh;
-    background: var(--primary-colors-cyan-400);
-    animation: progress 15s ease infinite;
-    z-index: 20;
-}
