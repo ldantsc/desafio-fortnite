@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 1040px),only screen and (max-height: 700px) {
+@media only screen and (max-width: 900px),only screen and (max-height: 800px) {
 
     .container-alert-display {
       height: 100vh;
