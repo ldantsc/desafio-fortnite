@@ -19,7 +19,7 @@ function ComponentB() {
 
 export default function Hero() {
 
-    
+
 
     const [showComponentA, setShowComponentA] = useState(true);
 
@@ -47,7 +47,7 @@ export default function Hero() {
                         </div>
                     </div>
                 </div>
-                <div className="hero-container-progress" >
+                <div className='hero-progress-bar'>
                     <HeroProgress />
                 </div>
             </div>

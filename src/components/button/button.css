@@ -1,4 +1,5 @@
 .btn-custom {
+    width: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,8 +8,11 @@
     background-color: var(--primary-colors-yellow-200);
     padding: 0.6em 3.8em;
     position: relative;
-    cursor: pointer;
     overflow: hidden;
+}
+
+.btn-custom, .btn-custom:hover::after, .btn-custom:hover {
+    cursor: pointer;
 }
 
 .btn-custom:hover {

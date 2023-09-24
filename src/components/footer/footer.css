@@ -1,89 +1,81 @@
-#footer-container-social-media {
-    border-bottom: 1px solid var(--gray-colors-200);
-    align-items: center;
-    position: relative;
-}
-
-#footer-container-social-media > .footer-social-media {
-    align-self: center;
-    position: absolute;
-    left: 65%;
-}
-
-
 .footer-container {
-    margin: 16px;
-    padding: 12px;
+    margin: 24px 72px;
 }
 
-.footer-container > * {
-    padding: 24px;
-}
-
-.logo-epic-games {
-    width: auto;
-    height: 80px;
-}
-
-.footer-social-media > * {
-    color: var(--gray-colors-700);
-    margin: 0 8px;
+#footer-container-social-media {
+    padding: 40px 0;
+    border-bottom: 1px solid var(--gray-colors-200);
 }
 
 .footer-social-media {
-    justify-content: center;
-}  
-
-
-.footer-container-about {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 0;
+    align-items: center;
 }
 
-.copywrite-explow {
-    text-align: end;
+.footer-social-media > *{
+    margin-left: 18px;
 }
 
-.copywrite-explow > p {
-    font-size: 1.4em;
+.footer-social-media p {
     color: var(--gray-colors-700);
 }
 
-.copywrite-explow > a > img {
-    width: 9rem;
-    height: auto;
-} 
+.footer-social-media img {
+    float: left;
+}
+
+.footer-copywrite-container-about {
+    padding: 40px 0 0 0;
+}
+
+.footer-container-about {
+    display: flex;
+    flex-direction: column;
+}
 
 
 .copywrite-epic {
-    width: 34%;
+    width: 60%;
 }
 
-.footer-container-about > p {
+.footer-container-about p {
     font-size: 1.4em;
     color: var(--gray-colors-700, #374151);
 }
 
-.footer-top-return {
-    text-align: center;
-    padding: 0;
+.footer-container-about a {
+    font-size: 1em;
+    color: var(--gray-colors-700);
+    text-decoration: underline;
 }
 
+.footer-top-return {
+    width:fit-content;
+}
 
-.footer-top-return * p {
-    margin: 0 0 6px 0;
-    font-size: 2rem;
+.footer-top-return a {
+    display: flex;
+    margin: 0;
     color: var(--gray-colors-700);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer-top-return a > p {
     cursor: pointer;
 }
 
 .icon-top-return {
-    width: 35px;
+    filter: opacity(0.6);
+    width: 10px;
+    margin-left: 5px;
     cursor: pointer;
-    filter: invert(21%) sepia(69%) saturate(6932%) hue-rotate(195deg) brightness(91%) contrast(94%);
 }
 
 .icon-top-return:hover {
     transform: scale(1.1);
+}
+
+.footer-logo-dants > * {
+    transform: scale(1.2);
 }

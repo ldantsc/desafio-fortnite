@@ -1,7 +1,7 @@
-import './hero-progress.css'
+import "./hero-progress.css"
 
 export default function HeroProgress() {
     return(
-        <div className='hero-progress'></div>
+        <div className='hero-progress'> </div>
     )
 }

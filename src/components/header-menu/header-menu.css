@@ -1,6 +1,5 @@
 .nav-header li {
-    margin: 4px;
-    padding: 0px 10px;
+    margin: 0 22px;
 }
 
 .nav-header li {
@@ -9,7 +8,7 @@
 
 
 .nav-header li a {
-    font-size: 14px;
+    font-size: 1.8em;
     position: relative;
     text-shadow: 0 0 2px rgb(0, 0, 0, 0.7);
 }

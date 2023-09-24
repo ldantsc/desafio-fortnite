@@ -1,5 +1,9 @@
 .hero-console-platform img {
-    width: 2.2em;
-    height: 2.2em;  
-    padding: 0 2rem 0 0;
+    width: auto;
+    height: 2.8em;  
+    margin: 0 1.8em 0 0;
+}
+
+.hero-console-platform p {
+    margin: 28px 0;
 }

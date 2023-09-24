@@ -1,8 +1,7 @@
 #items-card {
-    width: 24em;
-    height: 45em;
+    width: 30em;
+    height: 50em;
     background: linear-gradient(180deg, rgba(70,202,233,1) 20%, rgba(8,102,176,1) 80%);
-    margin: 4em;
 }
 
 .container-items-card {
@@ -36,10 +35,9 @@
 
 .container-items-card-description {
     opacity: 0;
+    width: 100%;
+    bottom: 18%;
     overflow: hidden;
-    left: 0;
-    bottom: 15%;
-    padding: 12px;
     transition: 1s;
 }
 
@@ -48,13 +46,21 @@
     transition: 1s;
 }
 
+.items-card-h2, .items-card-p {
+    padding: 0 24px;
+    margin: 0;
+}
+
 .items-card-h2 {
-    font-size: 3em;
-    letter-spacing: 4px;
+    width: 90%;
+    font-size: 4.8em;
+    letter-spacing: 4.8px;
+    margin-bottom: 8px;
 }
 
 .items-card-p {
-    font-size: 2em;
+    font-size: 2.4em;
+    line-height: 32px;
 }
 
 #items-card:hover .items-card-h2 {

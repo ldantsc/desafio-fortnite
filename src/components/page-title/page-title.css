@@ -1,6 +1,8 @@
 .page-title-container {
     width: auto;
     height: 25rem;
+    margin-top: 106px;
+    padding-bottom: 102px;
 }
 
 .page-title-custom {
@@ -17,16 +19,16 @@
     position: absolute;
     margin: 0;
     align-self: center;
-    font-size: 8rem;
+    font-size: 9.6rem;
     z-index: 30;
 }
 
 .page-title-custom h2 {
     position: absolute;
     margin: 0;
-    font-size: 20rem;
+    font-size: 30rem;
     letter-spacing: 3rem;
     color: transparent;
-    -webkit-text-stroke: 0.15rem var(--primary-colors-cyan-400);
+    -webkit-text-stroke: 0.250rem var(--primary-colors-cyan-400);
     z-index: 20;
 }

@@ -45,9 +45,17 @@
 }
 
 .container {
-    margin: 5rem 4rem;
-    padding: 0 6rem;
+    margin: 80px 71px;
     overflow: visible;
+}
+
+.container-margin-top {
+    margin-top: 45px;
+}
+
+.margin-card {
+    margin: 0 12px;
+    width: auto;
 }
 
 .h-100 {
@@ -147,22 +155,23 @@
 
     0%,
     100% {
-        width: 20%;
+        width: 100%;
     }
 
     20% {
-        width: 40%;
+        transform: translateX(-20vw);
     }
 
     40% {
-        width: 60%;
+        transform: translateX(-40vw);
     }
 
     60% {
-        width: 80%;
+        transform: translateX(-60vw);
     }
 
     80% {
-        width: 100%;
+        transform: translateX(-80vw);
     }
+
 }

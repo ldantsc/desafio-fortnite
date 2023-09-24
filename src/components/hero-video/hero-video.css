@@ -1,8 +1,9 @@
 .hero-preview-frame {
     width: 300px;
     height: 160px;
+    background-image: url(/video-1-min.png);
     background-color: var(--gray-colors-200);
-    animation: video 15s ease infinite;
+    animation: video 15s ease infinite 2s;
     cursor: pointer;
 }
 

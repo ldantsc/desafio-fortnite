@@ -5,7 +5,7 @@ import './styles.css'
 export default function Banner() {
     return (
         <section id="banner">
-            <div id="banner-container" className="flex align-center bg-blue-radial">
+            <div id="banner-container" className="flex align-center justify-between bg-blue-radial">
                 <div className="banner-container-description">
                     <BannerDescription />
                 </div>

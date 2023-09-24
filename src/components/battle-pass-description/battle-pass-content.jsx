@@ -3,7 +3,7 @@ import './battle-pass-content.css'
 
 export default function BattlePassDescription() {
 
-    const battlePassImgSrc = "./passe.png"
+    const battlePassImgSrc = "./passe.svg"
 
     return (
         <>

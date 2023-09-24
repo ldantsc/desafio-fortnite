@@ -1,16 +1,20 @@
 #battle-pass {
-    margin: 2rem 0;
-    padding: 3rem 0;
-    overflow: hidden;
+    margin-top: 265px;
+    overflow-x: clip;
 }
 
 .battle-pass-container {
-    height: 68vh;   
-    transform: skew(-10deg);   
+    width: 100vw;
+    height: 57.8vh;   
+    transform: skew(-25deg);
 }
 
 .battle-pass-container > * {
-    transform: skew(10deg);     
+    transform: skewX(25deg);   
+}
+
+.battle-pass-container-content {
+    padding: 50px;
 }
 
 .battle-pass-container-img {

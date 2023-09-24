@@ -1,17 +1,7 @@
 #tournaments-container {
-    height: 100%;
     overflow: hidden;
-}
-
-.tournaments-container-title {
-    margin: 60px 0;
 }
 
 .tournaments-container-cards {
     justify-self: end;
-    margin: 32px;
-}
-
-.tournaments-container-cards > * {
-    margin: 0 12px;
 }

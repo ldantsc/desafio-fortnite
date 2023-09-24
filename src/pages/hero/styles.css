@@ -1,21 +1,19 @@
 #hero {
+    background-image: url(/bg-img1-min.png);
     background-size: cover;
     background-repeat: no-repeat;
-    -webkit-animation: background 15s ease infinite;
-    -moz-animation: background 15s ease infinite;
-    -o-animation: background 15s ease infinite;
-    animation: background 15s ease infinite;
-}
-
-.hero-container {
-    position: relative;
+    -webkit-animation: background 15s ease infinite 2s;
+    -moz-animation: background 15s ease infinite 2s;
+    -o-animation: background 15s ease infinite 2s;
+    animation: background 15s ease infinite 2s;
+    height: 100vh;
 }
 
 .hero-container::before {
     content: " ";
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 11%, rgba(0, 0, 0, 0.5) 51%, rgba(0,0,0,0.7) 77%);
+    background: linear-gradient(0deg, #090D15 0%, rgba(9, 13, 21, 0.28) 100%);
     position: absolute;
     z-index: 0;
 }
@@ -44,6 +42,5 @@
 }
 
 .hero-container-progress {
-    position: inherit;
-    z-index: 30;
+    height: 1vh;
 }

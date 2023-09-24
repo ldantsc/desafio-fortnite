@@ -1,10 +1,14 @@
 #v-buck-card {
     width: 30em;
-    height: 46.8em;
+    height: 46em;
     background: linear-gradient(180deg, #0866B0 0%, #46CAE9 100%);
     position: relative;
     overflow: hidden;
     box-shadow: inset 0 0 0 4px var(--gray-colors-200);
+}
+
+#v-buck-card * {
+    cursor: pointer;
 }
 
 #v-buck-card:hover {
@@ -29,7 +33,6 @@
     height: 100%;
     position: relative;
     overflow: hidden;
-    cursor: pointer;
 }
 
 .container-v-buck-card::before {
@@ -59,12 +62,11 @@
 .v-buck-card-img {
     width: 200px;
     height: 124px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .container-v-buck-card-description {
     text-align: center;
-    padding: 12px;
 }
 
 .container-v-buck-card-description > h2 {
@@ -97,6 +99,28 @@
 
 .container-v-buck-card:hover .price {
     display: block;
-    right: 0;
+    right: -10.5px;
     transition: 0.7s;
 }
+
+#v-buck-card:hover .v-buck-container-bonus {
+    right: -10px;
+}
+
+.v-buck-container-bonus {
+    right: -200px;
+    background-color: var(--primary-colors-yellow-200);
+    z-index: 0;
+    transform: skewX(-12deg);
+    transition: 1s;
+}
+
+.v-buck-container-bonus h3 {
+    font-size: 2.4em;
+    letter-spacing: 2.4px;
+    color: black;
+    padding: 0 10px;
+    margin: 12px;
+    transform: skewX(12deg);
+}
+

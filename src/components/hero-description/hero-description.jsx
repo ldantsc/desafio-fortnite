@@ -10,7 +10,7 @@ export default function HeroDescription() {
         <>        
             <p className="">Boas vindas ao mundo de</p>
             <LogoFortnite width="400"/>
-            <p className="hero-description-text margin-bottom">{description}</p>
+            <p className="hero-description-text">{description}</p>
             <Button name="Jogue Agora" />
         </>
     )

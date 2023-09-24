@@ -12,11 +12,11 @@ export default function VBuck() {
                 <div className="v-bucks-title">
                     <PageTitle title="V-BUCKS" backgroundText="CRÉDITOS" />
                 </div>
-                <div className="v-buck-container-card flex justify-center">
+                <div className="v-buck-container-card flex justify-center container-margin-top">
                     <VBuckCard img={backgroundImg[0]} title="1.000" price="24,90"/>
                     <VBuckCard img={backgroundImg[1]} title="2.800" price="62,50"/>
                     <VBuckCard img={backgroundImg[2]} title="5.000" price="97,50"/>
-                    <VBuckCard img={backgroundImg[3]} title="13.500" price="246,00"/>
+                    <VBuckCard img={backgroundImg[3]} title="13.500" price="246,00" bonus={true} />
                 </div>
             </div>
         </section>

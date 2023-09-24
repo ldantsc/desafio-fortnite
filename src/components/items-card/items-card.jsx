@@ -8,19 +8,20 @@ export default function ItemsCard(props) {
         setDisplayShadow(!displayShadow)
     }
 
-return (
-    <>
-        <div id="items-card">
-            <div className="container-items-card flex" onMouseOver={onView}>
-                <div className="container-img-items-card flex align-end">
-                    <img src={props.backgroundImg} className="items-card-img" alt="Imagem de Skins"/>
-                </div>
-                <div className="container-items-card-description absolute">
-                    <h2 className='items-card-h2' >{props.title}</h2>
-                    <p className='items-card-p'>{props.subtitle}</p>
+    return (
+        <>
+            <div id="items-card" className='margin-card'>
+                <div className="container-items-card flex" onMouseOver={onView}>
+                    <div className="container-img-items-card flex align-end">
+                        <img src={props.backgroundImg} className="items-card-img" alt="Imagem de Skins" />
+                    </div>
+
+                    <div className="container-items-card-description absolute">
+                        <h2 className='items-card-h2' >{props.title}</h2>
+                        <p className='items-card-p'>{props.subtitle}</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </>
-)
+        </>
+    )
 }

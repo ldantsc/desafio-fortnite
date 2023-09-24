@@ -8,7 +8,7 @@ export default function Items() {
 
     return (
         <section id="items">
-            <div id="items-container" className="flex flex-column container">
+            <div id="items-container" className="flex flex-column container ">
                 <div id="items-container-description">
                     <PageTitle title="ADIQUIRA SKINS" backgroundText="ITENS" />
                 </div>

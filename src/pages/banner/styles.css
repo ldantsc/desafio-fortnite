@@ -5,16 +5,25 @@
 
 
 .banner-container-description {
-    margin: 32px;
+    width: 40%;
+    margin: 7px 74px;
     padding: 24px;
 }
 
-.banner-container-description > h1 {
-    font-size: 6rem;
-    letter-spacing: 3px;
+.banner-container-description > * {
+    margin: 24px;
 }
 
-.banner-container-description > p {
+.banner-container-description  h1 {
+    font-size: 6rem;
+    letter-spacing: 6px;
+}
+
+.banner-container-description  p {
     font-size: 3rem;
     font-weight: 400;
+}
+
+.banner-container-description button {
+    margin-bottom: 0;
 }
