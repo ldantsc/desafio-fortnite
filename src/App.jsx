@@ -1,5 +1,4 @@
 import { Element } from 'react-scroll';
-import { useState, useEffect } from 'react';
 import Hero from './pages/hero/hero'
 import Tournaments from './pages/tournaments/tournaments'
 import BattlePass from './pages/battle-pass/battle-pass'
