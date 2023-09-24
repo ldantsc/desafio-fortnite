@@ -28,7 +28,7 @@ Optei por utilizar o react, inicialmente via create-react-app, pois atualmente e
 - Dimensões diferentes do projeto original no Figma
 - entre outros problemas de código.
 
-O problema maior foi sobre as piscadas do background, tentei de todas as formas, pedir ajuda na comunidade, diversas pesquisas, mas infelizmente não consegui achar uma solução, mas percebi que era algo sobre url estaticos e relativo, então não conseguia utilizar um preload para fazer o carregamento dessas imagens.
+O problema maior foi sobre as piscadas do background, tentei de todas as formas, pedir ajuda na comunidade, diversas pesquisas, mas infelizmente não consegui achar uma solução, mas percebi que era algo sobre url estaticos e relativo, então não conseguia utilizar o preload para fazer o pré carregamento dessas imagens.
 
 ## Resolução...
 
@@ -39,7 +39,7 @@ Então tive que fazer a migração dos componentes e demais paginas que compunha
 Fico muito feliz pelo resultado desse projeto, é claro não parei por aqui... sei que preciso melhorar no Front-End e estou 100% em busca de melhores resultados!
 Gostaria de agradecer a Giovanna Souza pelo desafio, por seu feedback sobre o projeto, e por iniciativar os devs e designers iniciantes a entrar no mundo do Desenvolvimento Web... E é claro,agradecer imensamente também a comunidade do Explow no Discord por me ajudar e dar dicas sobre esse projeto.
 
-***Partes dos materiais utilizados são marcas registradas e/ou obras protegidas por direitos autorais da Epic Games, Inc. Todos os direitos reservados pela Epic. Este material não é oficial e não é endossado pela Epic.
+* Partes dos materiais utilizados são marcas registradas e/ou obras protegidas por direitos autorais da Epic Games, Inc. Todos os direitos reservados pela Epic. Este material não é oficial e não é endossado pela Epic.
 
 OBSERVAÇÃ, DISPONIVEL APENAS PARA DESKOTPS POIS VISUALIZAÇÃO DO PROJETO SERÁ SOMENTE ACIMA DE TELAS COM TAMANHO DE 900x650
 
