@@ -13,7 +13,8 @@
 }
 
 .page-title-custom h1 {
-    background: linear-gradient(180deg, #0866B0 0%, #46CAE9 100%);;
+    background: linear-gradient(180deg, #0866B0 0%, #46CAE9 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
