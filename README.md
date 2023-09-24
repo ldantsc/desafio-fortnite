@@ -74,7 +74,7 @@ Gostaria de agradecer a Giovanna Souza pelo desafio, por seu feedback sobre o pr
 
 ***Partes dos materiais utilizados são marcas registradas e/ou obras protegidas por direitos autorais da Epic Games, Inc. Todos os direitos reservados pela Epic. Este material não é oficial e não é endossado pela Epic.
 
-**OBSERVAÇÃ, DISPONIVEL APENAS PARA DESKOTPS POIS VISUALIZAÇÃO DO PROJETO SERÁ SOMENTE ACIMA DE TELAS COM TAMANHO DE 900x650**
+**OBSERVAÇÃO, DISPONIVEL APENAS PARA DESKOTPS POIS VISUALIZAÇÃO DO PROJETO SERÁ SOMENTE ACIMA DE TELAS COM TAMANHO DE 900x650**
 
 <br>
 
