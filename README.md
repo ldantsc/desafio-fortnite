@@ -78,8 +78,8 @@ Gostaria de agradecer a Giovanna Souza pelo desafio, por seu feedback sobre o pr
 
 <br>
 
--[Linkedin | Lucas Dantas (me)](https://www.linkedin.com/in/dantsc/)
+- [Linkedin | Lucas Dantas (me)](https://www.linkedin.com/in/dantsc/)
 
--[Linkedin | Giovanna Souza](https://www.linkedin.com/in/eugiovannasouza/) 
+- [Linkedin | Giovanna Souza](https://www.linkedin.com/in/eugiovannasouza/) 
 
--[Explow Studio](https://www.explow.studio/) 
+- [Explow Studio](https://www.explow.studio/) 
